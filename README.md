@@ -1,3 +1,7 @@
+# Android Wear (AW) UIAutomator Server
+
+An extension of the original UIAutomator Server, with support to Android Wear.
+
 # Purpose
 
 [UIAutomator](http://developer.android.com/tools/testing/testing_ui.html) is a

@@ -1,12 +1,12 @@
 # Android Wear (AW) UIAutomator Server
 
-An extension of the original [UIAutomator Server](https://github.com/xiaocong/android-uiautomator-server),
+An extension of [UIAutomator Server](https://github.com/xiaocong/android-uiautomator-server),
 with support to Android Wear.
 
 # Purpose
 
-[UIAutomator](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html) is a
-tool to perform Android UI testing for multiple applications. The original UIAutomator Server allows
+[UI Automator](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html) is a
+tool to perform Android UI testing for multiple devices. UIAutomator Server allows
 developers to write Python scripts to communicate with Android handheld devices, but not applicable for
 Android Wear (AW). 
 

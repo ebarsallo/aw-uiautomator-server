@@ -27,4 +27,4 @@ Refer to python wrapper library [uiautomator](https://github.com/xiaocong/uiauto
 
 # Notes
 
-If you have any questions or ideas, pleas [create a new issue](https://github.com/presto-osu/aw-uiautomator-server/issues/new).
+If you have any questions or ideas, please [create a new issue](https://github.com/presto-osu/aw-uiautomator-server/issues/new).

@@ -20,6 +20,7 @@ handhelds and the wearables with a single Python script.
 # Build
 
 - Run command
+
   ```bash
   $ ./gradlew build
   $ ./gradlew packageDebugAndroidTest

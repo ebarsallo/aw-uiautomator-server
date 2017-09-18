@@ -22,8 +22,8 @@ handhelds and the wearables with a single Python script.
 - Run command
 
   ```bash
-  $ ./gradlew build
-  $ ./gradlew packageDebugAndroidTest
+  $ ./gradlew :wear:build
+  $ ./gradlew :wear:connectedCheck
   ```
 
 # How to use

@@ -49,6 +49,7 @@ public class Stub {
 
     @Before
     public fun setUp() {
+        Log.i("[PAI] Start...");
         server.route("/jsonrpc/0", JsonRpcServer(ObjectMapper(), AutomatorServiceImpl(), AutomatorService::class.java))
         server.start()
         UiDevice.getInstance(InstrumentationRegistry.getInstrumentation()).wakeUp()
@@ -56,6 +57,7 @@ public class Stub {
 
     @After
     public fun tearDown() {
+        Log.i("[PAI] End...");
         server.stop()
     }
 
@@ -64,6 +66,7 @@ public class Stub {
     @FlakyTest(tolerance = 3)
     @Throws(InterruptedException::class)
     public fun testUIAutomatorStub() {
+        Log.i("[PAI] Run...");
         while (server.isAlive())
             Thread.sleep(100)
     }
